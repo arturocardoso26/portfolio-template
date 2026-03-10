@@ -1,10 +1,10 @@
 :root {
   /* Light Mode Colors */
-  --background-light: #556B2F;
-  --section-bg-light: #F5F5F5;
+  --background-light: #8aa4eb;
+  --section-bg-light: #fdfdfd;
   --text-light: #000000;
-  --link-light: #7B4F9D;
-  --button-light: #7B4F9D;
+  --link-light: #4e44a1;
+  --button-light: #4e44a1;
   --button-hover-light: #432b55;
   --button-text-light: #FFFFFF;
   --image-bg-light: #FFFFFF;
@@ -21,11 +21,11 @@
   --shadow-top-light: 0 -4px 8px var(--shadow-color-light);
 
   /* Dark Mode Colors */
-  --background-dark: #2D3339;
-  --section-bg-dark: #38471f;
+  --background-dark: #312d39;
+  --section-bg-dark: #1c3f37;
   --text-dark: #FFFFFF;
-  --link-dark: #6DABFF;
-  --button-dark: #6DABFF;
+  --link-dark: #649ae6;
+  --button-dark: #649ae6;
   --button-hover-dark: #004099;
   --button-text-dark: #FFFFFF;
   --card-bg-dark: #2D3339;
@@ -63,7 +63,7 @@ html {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: clamp(1rem, 2vw, 1.125rem);
   line-height: 1.6;
   margin: 0;
